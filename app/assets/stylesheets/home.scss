@@ -1,3 +1,16 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.logo {
+    background-image: asset_url('header.jpeg');
+    background-repeat: no-repeat;
+    background-position: 15% 45%;
+    color: antiquewhite;
+    text-shadow: 2px 2px slategrey;
+    background-size: cover;
+}
+
+.plan {
+    margin: 2em;
+}
