@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
+gem 'activerecord-multi-tenant'
 gem 'annotate', '~> 3.1', '>= 3.1.1'
 gem 'awesome_print'
 gem 'devise', '~> 4.7', '>= 4.7.3'
